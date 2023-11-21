@@ -17,7 +17,7 @@ services:
       retries: 10
 
   wordpress:
-    image: wordpress:php8.0
+    image: wordpress:php8.2
     ports:
       - 80
     restart: always
